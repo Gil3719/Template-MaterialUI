@@ -3,7 +3,8 @@ import { FormControl, InputLabel, Input, FormHelperText } from '@mui/material';
 import Grid from '@mui/material/Grid';
 
 const Login = () => {
-    const [login, setLogin, senha, setSenha] = useState('');
+    const [login, setLogin] = useState('');
+    const [senha,setSenha] = useState('');
     return (
         <Grid container spacing={0}>
             <Grid item xs={12}>
